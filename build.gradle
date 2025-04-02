@@ -1,0 +1,14 @@
+// Root build.gradle file (Project-level)
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}

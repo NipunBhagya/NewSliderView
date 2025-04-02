@@ -1,0 +1,26 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Background Track (Inactive) -->
+    <item android:id="@android:id/background">
+        <shape android:shape="rectangle">
+            <size android:height="10dp"/> <!-- This sets the height of the track -->
+            <solid android:color="#C4D9D3D3"/>
+            <corners android:radius="10dp"/>
+        </shape>
+    </item>
+
+    <!-- Progress Track (Active) -->
+    <item android:id="@android:id/progress">
+        <scale android:scaleWidth="100%" android:gravity="start">
+            <shape android:shape="rectangle">
+                <size android:height="10dp"/> <!-- This sets the height of the progress track -->
+                <corners android:radius="10dp"/>
+                <gradient
+                    android:angle="0"
+                    android:startColor="#B6894AFA"
+                    android:endColor="#D52399F6"/>
+            </shape>
+        </scale>
+    </item>
+
+</layer-list>

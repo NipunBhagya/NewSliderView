@@ -1,0 +1,9 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#FFFFFF"/> <!-- Inner Fill Color (White) -->
+            <stroke android:width="4dp" android:color="#2399F6"/> <!-- Outer Border (Deep Blue) -->
+            <size android:width="20dp" android:height="20dp"/> <!-- Size of Thumb -->
+        </shape>
+    </item>
+</layer-list>
